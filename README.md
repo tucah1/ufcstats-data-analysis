@@ -8,7 +8,7 @@ Topic of the project is analysis of data about UFC (Ultimate Fighting Championsh
 
 ## Steps
 
-First step in the project is collecting actual data by scraping website called ufcstats.com. This part is done and the method (actual R script) with the result (data in the .csv file) are available in data_scraping folder on the 'master' branch.
+First step in the project is collecting actual data by scraping website called ufcstats.com. This part is done and the method (actual R script) with the result (data in the .csv file) is available in 'data_scraping' folder on the 'master' branch.
 
 
 TO BE CONTINUED...
