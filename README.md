@@ -1,6 +1,6 @@
 # ufcstats-data-analysis
 
-This data analysis is done as a final project for CS498 Computing with data lecture at International University of Sarajevo.
+This data analysis is done as a final project for "CS498 Computing With Data" lecture at International University of Sarajevo.
 
 ## Data
 
