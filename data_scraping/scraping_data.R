@@ -3,8 +3,6 @@ library(stringr)
 library(sjmisc)
 library(plyr)
 
-page_url <- 'http://ufcstats.com/statistics/events/completed?page=all'
-
 get_list_of_events <- function(ufc_stats_html) {
   table_content <- ufc_stats_html %>%
     html_nodes('i.b-statistics__table-content')
@@ -321,7 +319,7 @@ scrape_data <- function(events_links) {
   return(df)
 }
 
-
+page_url <- 'http://ufcstats.com/statistics/events/completed?page=all'
 ufc_stats <- xml2::read_html(page_url)
 
 events_links <- get_list_of_events(ufc_stats_html = ufc_stats)[-1]

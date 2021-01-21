@@ -1,2 +1,6 @@
 *.RData
 *.Rhistory
+*.Rproj
+*.docx
+.Rproj.user
+graphics
